@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="เว็บไซต์ Portfolio ของกิตติกร โชกุน นักเรียนชั้นมัธยมศึกษาปีที่ 3">
+    <meta name="description" content="เว็บไซต์ Portfolio ของกิตติกร หรือโชกุน นักเรียนชั้นมัธยมศึกษาปีที่ 3">
     <title>กิตติกร | Student Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,9 +17,10 @@
 
     <header class="site-header">
         <nav class="navbar container">
+
             <a href="index.html" class="logo">
                 <span class="logo-mark">K</span>
-                <span>KITTIKORN<span class="logo-dot">.</span></span>
+                <span>MY<span>PORTFOLIO</span></span>
             </a>
 
             <div class="nav-links">
@@ -24,44 +30,41 @@
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
             </div>
+
         </nav>
     </header>
 
     <main>
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-decoration decoration-one"></div>
-            <div class="hero-decoration decoration-two"></div>
+        <section class="hero-section">
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
 
             <div class="container hero-grid">
 
                 <div class="hero-content fade-up">
 
                     <div class="eyebrow">
-                        <span class="eyebrow-line"></span>
+                        <span></span>
                         STUDENT PORTFOLIO
                     </div>
 
-                    <p class="hero-greeting">สวัสดีครับ ผมคือ</p>
+                    <p class="hero-greeting">สวัสดีครับ 👋 ผมชื่อ</p>
 
                     <h1>
                         กิตติกร
-                        <span class="gradient-text">โชกุน</span>
+                        <span>“โชกุน”</span>
                     </h1>
 
                     <p class="hero-description">
                         นักเรียนชั้นมัธยมศึกษาปีที่ 3
-                        ที่ชื่นชอบการเรียนรู้สิ่งใหม่ ๆ
-                        และสนใจการสร้างสรรค์ผลงานในโลกดิจิทัล
+                        ที่ชอบเรียนรู้สิ่งใหม่ ๆ และสนใจโลกของเทคโนโลยี
                     </p>
 
-                    <div class="hero-highlight">
-                        <span class="highlight-icon">✦</span>
-                        <div>
-                            <strong>My Personal Motto</strong>
-                            <p>เรียนรู้วันนี้ เพื่อสร้างสิ่งที่ดีกว่าในวันพรุ่งนี้</p>
-                        </div>
+                    <div class="hero-tags">
+                        <span>ม.3/2</span>
+                        <span>โรงเรียนจอมทอง</span>
+                        <span>เชียงใหม่</span>
                     </div>
 
                     <div class="hero-buttons">
@@ -75,154 +78,134 @@
                         </a>
                     </div>
 
-                    <div class="quick-stats">
-                        <div class="stat">
+                    <div class="hero-mini-stats">
+                        <div>
                             <strong>14</strong>
                             <span>อายุ</span>
                         </div>
 
                         <div class="stat-divider"></div>
 
-                        <div class="stat">
+                        <div>
                             <strong>ม.3</strong>
                             <span>ระดับชั้น</span>
                         </div>
 
                         <div class="stat-divider"></div>
 
-                        <div class="stat">
-                            <strong>CMI</strong>
-                            <span>เชียงใหม่</span>
+                        <div>
+                            <strong>01</strong>
+                            <span>Portfolio</span>
                         </div>
                     </div>
 
                 </div>
 
-                <!-- Hero Profile -->
                 <div class="hero-visual fade-up delay-1">
 
-                    <div class="visual-orbit orbit-one"></div>
-                    <div class="visual-orbit orbit-two"></div>
+                    <div class="circle-decoration"></div>
+                    <div class="gold-orbit"></div>
 
                     <div class="profile-frame">
-                        <div class="gold-badge">HELLO!</div>
-
-                        <div class="profile-image-wrapper">
+                        <div class="profile-frame-inner">
                             <img
-                                src="images/image1.jpg"
-                                alt="รูปของกิตติกร"
-                                class="profile-image"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJknqsM3JGpvrgClt9zgYH3eqqwJ2fhHWD0YO94FQ_kIIJd_IZ8HN97mt&s=10"
+                                alt="รูปโปรไฟล์ของกิตติกร"
                             >
-                        </div>
-
-                        <div class="profile-floating-card">
-                            <span class="floating-icon">🎓</span>
-                            <div>
-                                <strong>ม.3/2</strong>
-                                <span>โรงเรียนจอมทอง</span>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="floating-shape shape-star">✦</div>
-                    <div class="floating-shape shape-plus">+</div>
+                    <div class="floating-card floating-card-top">
+                        <span class="floating-icon">✦</span>
+                        <div>
+                            <strong>My Goal</strong>
+                            <small>เป็นราชา 👑</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+                        <span class="floating-icon blue">★</span>
+                        <div>
+                            <strong>Favorite</strong>
+                            <small>คณิตศาสตร์</small>
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
         </section>
 
-        <!-- Introduction Section -->
-        <section class="section intro-section">
+        <section class="intro-section section-padding">
             <div class="container">
 
                 <div class="section-heading centered">
-                    <span class="section-label">ABOUT MY PORTFOLIO</span>
-                    <h2>ยินดีต้อนรับสู่ <span>พื้นที่ของฉัน</span></h2>
+                    <p class="section-label">WELCOME TO MY WORLD</p>
+                    <h2>Portfolio ของ<span>โชกุน</span></h2>
                     <p>
-                        เว็บไซต์เล็ก ๆ ที่รวบรวมเรื่องราวเกี่ยวกับตัวฉัน
-                        การศึกษา งานอดิเรก และสิ่งที่ฉันสนใจ
+                        พื้นที่เล็ก ๆ ที่รวบรวมเรื่องราวเกี่ยวกับตัวผม
+                        การศึกษา งานอดิเรก และสิ่งที่ผมสนใจ
                     </p>
                 </div>
 
-                <div class="intro-grid">
+                <div class="quick-grid">
 
-                    <div class="intro-card intro-main">
-                        <div class="card-number">01</div>
-                        <span class="card-icon blue-icon">👋</span>
+                    <a href="profile.html" class="quick-card">
+                        <div class="quick-number">01</div>
+                        <div class="quick-icon">👤</div>
+                        <h3>ประวัติส่วนตัว</h3>
+                        <p>ทำความรู้จักตัวตนและเรื่องราวของผมมากขึ้น</p>
+                        <span class="card-arrow">→</span>
+                    </a>
 
-                        <h3>About Me</h3>
+                    <a href="education.html" class="quick-card featured">
+                        <div class="quick-number">02</div>
+                        <div class="quick-icon">🎓</div>
+                        <h3>การศึกษา</h3>
+                        <p>เส้นทางการเรียนรู้และวิชาที่ผมชื่นชอบ</p>
+                        <span class="card-arrow">→</span>
+                    </a>
 
-                        <p>
-                            ผมชื่อกิตติกร หรือชื่อเล่นว่าโชกุน
-                            ปัจจุบันกำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 3
-                            โรงเรียนจอมทอง จังหวัดเชียงใหม่
-                        </p>
-
-                        <a href="profile.html" class="text-link">
-                            อ่านประวัติของฉัน →
-                        </a>
-                    </div>
-
-                    <div class="intro-card intro-accent">
-                        <span class="card-icon gold-icon">⭐</span>
-
-                        <div>
-                            <span class="mini-label">MY INTEREST</span>
-                            <h3>การได้เป็นราชา</h3>
-                            <p>
-                                สิ่งที่สะท้อนความฝันและจินตนาการ
-                                ในแบบที่เป็นตัวของฉันเอง
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="intro-card intro-small">
-                        <span class="card-icon blue-icon">📐</span>
-                        <span class="mini-label">FAVORITE SUBJECT</span>
-                        <h3>คณิตศาสตร์</h3>
-                        <p>วิชาที่ชอบและสนุกกับการคิดแก้โจทย์</p>
-                    </div>
+                    <a href="hobby.html" class="quick-card">
+                        <div class="quick-number">03</div>
+                        <div class="quick-icon">🎮</div>
+                        <h3>งานอดิเรก</h3>
+                        <p>กิจกรรมที่ผมชอบทำในเวลาว่าง</p>
+                        <span class="card-arrow">→</span>
+                    </a>
 
                 </div>
+
             </div>
         </section>
 
-        <!-- CTA -->
-        <section class="cta-section">
-            <div class="container cta-inner">
-                <div>
-                    <span class="section-label light-label">LET'S EXPLORE</span>
-                    <h2>อยากรู้จักผมมากขึ้นไหม?</h2>
-                    <p>ลองดูเรื่องราวในแต่ละส่วนของ Portfolio ได้เลย</p>
+        <section class="quote-section">
+            <div class="container">
+                <div class="quote-box">
+                    <div class="quote-mark">“</div>
+                    <p>
+                        ทุกวันคือโอกาสที่จะเรียนรู้สิ่งใหม่
+                        และก้าวไปข้างหน้าอีกหนึ่งก้าว
+                    </p>
+                    <span>— Kittikorn / Shogun</span>
                 </div>
-
-                <a href="contact.html" class="btn btn-light">
-                    ติดต่อฉัน
-                    <span>→</span>
-                </a>
             </div>
         </section>
 
     </main>
 
     <footer class="site-footer">
-        <div class="container footer-grid">
+        <div class="container footer-content">
 
             <div class="footer-brand">
                 <a href="index.html" class="logo footer-logo">
                     <span class="logo-mark">K</span>
-                    <span>KITTIKORN<span class="logo-dot">.</span></span>
+                    <span>MY<span>PORTFOLIO</span></span>
                 </a>
-
-                <p>
-                    Modern Student Portfolio<br>
-                    ของกิตติกร (โชกุน)
-                </p>
+                <p>เว็บไซต์แนะนำตัวของกิตติกร “โชกุน”</p>
             </div>
 
-            <div class="footer-nav">
-                <h4>เว็บไซต์</h4>
+            <div class="footer-links">
                 <a href="index.html">หน้าแรก</a>
                 <a href="profile.html">ประวัติส่วนตัว</a>
                 <a href="education.html">การศึกษา</a>
@@ -230,20 +213,11 @@
                 <a href="contact.html">ติดต่อ</a>
             </div>
 
-            <div class="footer-info">
-                <h4>ข้อมูลนักเรียน</h4>
-                <p>กิตติกร (โชกุน)</p>
-                <p>ชั้น ม.3/2</p>
-                <p>โรงเรียนจอมทอง</p>
-                <p>จังหวัดเชียงใหม่</p>
+            <div class="footer-bottom">
+                <p>© 2026 Kittikorn. Student Portfolio.</p>
+                <p>ม.3/2 • โรงเรียนจอมทอง</p>
             </div>
 
-        </div>
-
-        <div class="footer-bottom">
-            <div class="container">
-                <p>© 2026 Kittikorn Student Portfolio. Created for Computer Project.</p>
-            </div>
         </div>
     </footer>
 
