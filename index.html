@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าแรก - พอร์ตโฟลิโอของฉัน</title>
+    <title>หน้าแรก - พอร์ตโฟลิโอของ ด.ช.กิตติกร สุธนะ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="space-bg"></div>
+    
     <header>
         <nav class="navbar">
-            <div class="logo">Kittikorn's Portfolio</div>
+            <div class="logo"><span>SHOGUN</span>.DEV</div>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">หน้าแรก</a></li>
                 <li><a href="profile.html">ประวัติส่วนตัว</a></li>
@@ -22,29 +24,27 @@
 
     <main>
         <section class="hero-section">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <span class="badge">Welcome to my space</span>
-                    <h1>สวัสดีครับ ผม <span class="highlight">ด.ช.กิตติกร สุธนะ</span></h1>
-                    <p class="subtitle">ชื่อเล่น โชกุน | นักเรียนชั้น ม.3 โรงเรียนจอมทอง จ.เชียงใหม่</p>
-                    <p class="description">ยินดีต้อนรับสู่เว็บไซต์แนะนำตัวอย่างเป็นทางการของผม เว็บไซต์นี้จัดทำขึ้นเพื่อเป็นโครงงานวิชาคอมพิวเตอร์ รวบรวมข้อมูลส่วนตัว ประวัติการศึกษา และงานอดิเรกต่าง ๆ</p>
-                    <div class="hero-buttons">
-                        <a href="profile.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
-                        <a href="hobby.html" class="btn btn-secondary">ดูงานอดิเรกของฉัน</a>
-                    </div>
+            <div class="hero-content">
+                <span class="badge">นักเรียนชั้นมัธยมศึกษาปีที่ 3</span>
+                <h1>สวัสดีครับ ผม <span class="highlight">ด.ช.กิตติกร สุธนะ</span></h1>
+                <p class="nickname">ชื่อเล่น: โชกุน (ผู้ที่เป็นราชาในหมู่ราชา)</p>
+                <p class="hero-desc">ยินดีต้อนรับสู่เว็บไซต์แนะนำตัวเชิงสร้างสรรค์ของผม โครงงานวิชาคอมพิวเตอร์ที่รวบรวมตัวตน ประวัติการศึกษา และความสนใจพิเศษเอาไว้ในที่เดียว</p>
+                <div class="hero-btns">
+                    <a href="profile.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
+                    <a href="hobby.html" class="btn btn-secondary">ดูงานอดิเรกของฉัน</a>
                 </div>
-                <div class="hero-image-container">
-                    <div class="circle-decoration"></div>
-                    <img src="data:image/jpeg;base64,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" alt="รูปโปรไฟล์ของ ด.ช.กิตติกร สุธนะ">
-                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="glow-circle"></div>
+                <img src="https://placehold.co/400x400/1a1a1a/FFD700.png?text=Shogun" alt="รูปโปรไฟล์ของ ด.ช.กิตติกร สุธนะ" class="profile-hero-img">
             </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-content">
-            <p>เว็บไซต์แนะนำตัว โครงงานวิชาคอมพิวเตอร์</p>
-            <p>&copy; 2026 ด.ช.กิตติกร สุธนะ ชั้น ม.3 โรงเรียนจอมทอง</p>
+            <p>เว็บไซต์แนะนำตัว | ด.ช.กิตติกร สุธนะ (โชกุน) ชั้น ม.3/2 โรงเรียนจอมทอง จ.เชียงใหม่</p>
+            <p class="copyright">&copy; 2026 All Rights Reserved.</p>
         </div>
     </footer>
 </body>
