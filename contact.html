@@ -3,157 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ช่องทางการติดต่อกิตติกร โชกุน">
-    <title>ติดต่อ | กิตติกร</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    <title>ติดต่อ | โชกุน กิตติกร</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header class="site-header">
-        <nav class="navbar container">
-
-            <a href="index.html" class="logo">
-                <span class="logo-mark">K</span>
-                <span>MY<span>PORTFOLIO</span></span>
-            </a>
-
-            <div class="nav-links">
-                <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
-                <a href="education.html">การศึกษา</a>
-                <a href="hobby.html">งานอดิเรก</a>
-                <a href="contact.html" class="active">ติดต่อ</a>
-            </div>
-
-        </nav>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">SHOGUN<span class="logo-accent">.ECLIPSE</span></a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">หน้าแรก</a>
+                <a href="profile.html" class="nav-link">ประวัติส่วนตัว</a>
+                <a href="education.html" class="nav-link">การศึกษา</a>
+                <a href="hobby.html" class="nav-link">งานอดิเรก</a>
+                <a href="contact.html" class="nav-link active">ติดต่อ</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="container page-content">
+        <div class="page-header">
+            <span class="badge">GET IN TOUCH</span>
+            <h1 class="page-title">สามารถติดต่อ<span class="text-highlight">ฉันได้ที่</span></h1>
+            <p class="page-subtitle">ช่องทางพูดคุย แลกเปลี่ยนความคิดเห็น หรือสอบถามข้อมูลเพิ่มเติม</p>
+        </div>
 
-        <section class="page-hero contact-hero">
-            <div class="container page-hero-content">
-                <p class="section-label">GET IN TOUCH</p>
-                <h1>ติดต่อ<span>ฉัน</span></h1>
-                <p>หากต้องการรู้จักหรือพูดคุย สามารถติดต่อผมได้</p>
-            </div>
-        </section>
-
-        <section class="section-padding contact-section">
-            <div class="container">
-
-                <div class="contact-intro">
-
-                    <div class="section-heading">
-                        <p class="section-label">CONTACT ME</p>
-                        <h2>สามารถติดต่อ<span>ฉันได้ที่</span></h2>
-                        <p>
-                            ยินดีต้อนรับทุกคนที่เข้ามาชม Portfolio ของผม
-                            และขอบคุณที่สละเวลามาทำความรู้จักกันครับ
-                        </p>
-                    </div>
-
-                    <div class="contact-badge">
-                        <span>👋</span>
-                        <div>
-                            <strong>Let's Connect</strong>
-                            <small>ยินดีที่ได้รู้จักครับ!</small>
-                        </div>
-                    </div>
-
+        <div class="contact-wrapper">
+            <!-- Contact Cards -->
+            <div class="grid grid-2 contact-grid">
+                <div class="card contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email Card</h3>
+                    <p>kittikorn.suthana@example.com</p>
+                    <a href="mailto:kittikorn.suthana@example.com" class="btn btn-outline btn-sm">ส่งอีเมลหาฉัน</a>
                 </div>
 
-                <div class="contact-grid">
-
-                    <div class="contact-card email-card">
-                        <div class="contact-icon">✉</div>
-                        <div class="contact-card-content">
-                            <span class="contact-label">EMAIL</span>
-                            <h3>Email</h3>
-                            <p>ช่องทางสำหรับการติดต่อทางอีเมล</p>
-                            <a href="mailto:student@example.com" class="contact-link">
-                                student@example.com
-                                <span>→</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="contact-card web-card">
-                        <div class="contact-icon">⌘</div>
-                        <div class="contact-card-content">
-                            <span class="contact-label">WEBSITE</span>
-                            <h3>My Portfolio</h3>
-                            <p>เว็บไซต์แนะนำตัวและผลงานของผม</p>
-                            <a href="index.html" class="contact-link">
-                                กลับไปหน้าแรก
-                                <span>→</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="contact-card school-card">
-                        <div class="contact-icon">🏫</div>
-                        <div class="contact-card-content">
-                            <span class="contact-label">SCHOOL</span>
-                            <h3>โรงเรียนจอมทอง</h3>
-                            <p>นักเรียนชั้นมัธยมศึกษาปีที่ 3/2</p>
-                            <span class="contact-static">
-                                📍 จังหวัดเชียงใหม่
-                            </span>
-                        </div>
-                    </div>
-
+                <div class="card contact-card">
+                    <div class="contact-icon">🌐</div>
+                    <h3>Website Card</h3>
+                    <p>shogun-portfolio.github.io</p>
+                    <a href="index.html" class="btn btn-outline btn-sm">เยี่ยมชมเว็บไซต์</a>
                 </div>
 
-            </div>
-        </section>
-
-        <section class="cta-section section-padding">
-            <div class="container">
-
-                <div class="cta-box">
-
-                    <div class="cta-decoration"></div>
-
-                    <div class="cta-content">
-                        <p class="section-label">THANK YOU</p>
-                        <h2>ขอบคุณที่เข้ามาเยี่ยมชม<span>Portfolio ของผม</span></h2>
-                        <p>
-                            หวังว่าคุณจะได้รู้จักกิตติกร
-                            หรือ “โชกุน” มากขึ้นนะครับ
-                        </p>
-
-                        <a href="index.html" class="btn btn-white">
-                            กลับไปหน้าแรก
-                            <span>→</span>
-                        </a>
-                    </div>
-
-                    <div class="cta-symbol">K</div>
-
+                <div class="card contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Contact Information</h3>
+                    <p>อำเภอจอมทอง จังหวัดเชียงใหม่ ประเทศไทย</p>
+                    <span class="contact-tag">เชียงใหม่, TH</span>
                 </div>
 
+                <div class="card contact-card">
+                    <div class="contact-icon">🏫</div>
+                    <h3>Social / Contact Card</h3>
+                    <p>โรงเรียนจอมทอง (ชั้น ม.3/2)</p>
+                    <span class="contact-tag">สังกัด สพม.เชียงใหม่</span>
+                </div>
             </div>
-        </section>
 
+            <!-- Simulated Contact Form Box -->
+            <div class="card contact-form-card">
+                <h2>ส่งข้อความหาโชกุน</h2>
+                <p class="form-desc">กรอกข้อมูลด้านล่างเพื่อฝากข้อความถึงผม (ส่วนแสดงผลดีไซน์ตัวอย่าง)</p>
+                <form action="#" class="mock-form" onclick="return false;">
+                    <div class="form-group">
+                        <label>ชื่อของคุณ</label>
+                        <input type="text" placeholder="กรอกชื่อ-นามสกุลของคุณ" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label>อีเมลติดต่อกลับ</label>
+                        <input type="email" placeholder="example@email.com" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label>ข้อความ</label>
+                        <textarea placeholder="พิมพ์ข้อความที่คุณต้องการส่ง..." class="form-input form-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">ส่งข้อความ</button>
+                </form>
+            </div>
+        </div>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-content">
-
-            <div class="footer-brand">
-                <a href="index.html" class="logo footer-logo">
-                    <span class="logo-mark">K</span>
-                    <span>MY<span>PORTFOLIO</span></span>
-                </a>
-                <p>เว็บไซต์แนะนำตัวของกิตติกร “โชกุน”</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>SHOGUN PORTFOLIO</h3>
+                <p>ด.ช.กิตติกร สุธนะ (โชกุน) | ม.3/2 โรงเรียนจอมทอง</p>
             </div>
-
             <div class="footer-links">
                 <a href="index.html">หน้าแรก</a>
                 <a href="profile.html">ประวัติส่วนตัว</a>
@@ -161,12 +98,9 @@
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
             </div>
-
-            <div class="footer-bottom">
-                <p>© 2026 Kittikorn. Student Portfolio.</p>
-                <p>ม.3/2 • โรงเรียนจอมทอง</p>
-            </div>
-
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kittikorn Suthana. All Rights Reserved. Computer Science Project.</p>
         </div>
     </footer>
 
