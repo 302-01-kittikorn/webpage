@@ -33,13 +33,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at 50% 30%, #1a1600 0%, #0a0a0a 60%, #000000 100%);
+    background: radial-gradient(circle at 50% 30%, #2a2000 0%, #0a0a0a 60%, #000000 100%);
     z-index: -1;
     animation: pulseGlow 8s ease-in-out infinite alternate;
 }
 
 @keyframes pulseGlow {
-    0% { transform: scale(1); opacity: 0.8; }
+    0% { transform: scale(1); opacity: 0.85; }
     100% { transform: scale(1.05); opacity: 1; }
 }
 
@@ -469,6 +469,7 @@ main {
     color: var(--yellow-primary);
     font-weight: 600;
     margin-bottom: 0.8rem;
+    text-transform: capitalize;
 }
 
 .sub-desc {
@@ -559,12 +560,32 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
 }
 
-.footer-content p {
+.footer-title {
     color: var(--text-muted);
     font-size: 0.9rem;
-    margin-bottom: 0.4rem;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    transition: var(--transition);
+}
+
+.footer-nav a:hover {
+    color: var(--yellow-primary);
 }
 
 .copyright {
@@ -592,6 +613,6 @@ footer {
     }
 
     .nav-links {
-        display: none; /* สำหรับหน้าจอมือถือสามารถปรับปรุงเพิ่มเติมได้ตามความเหมาะสม */
+        display: none;
     }
 }
