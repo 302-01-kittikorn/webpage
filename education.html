@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>การศึกษา - พอร์ตโฟลิโอของฉัน</title>
+    <title>การศึกษา - ด.ช.กิตติกร สุธนะ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="space-bg"></div>
+    
     <header>
         <nav class="navbar">
-            <div class="logo">Kittikorn's Portfolio</div>
+            <div class="logo"><span>SHOGUN</span>.DEV</div>
             <ul class="nav-links">
                 <li><a href="index.html">หน้าแรก</a></li>
                 <li><a href="profile.html">ประวัติส่วนตัว</a></li>
@@ -22,66 +24,81 @@
 
     <main class="container">
         <section class="page-header">
-            <h2>ประวัติการศึกษา (Education)</h2>
-            <p>เส้นทางทางการศึกษาและข้อมูลทางวิชาการของผม</p>
+            <h2>ประวัติการศึกษา</h2>
+            <p>เส้นทางการศึกษาและข้อมูลวิชาการของผม</p>
         </section>
 
-        <div class="education-content">
+        <div class="education-layout">
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">ประถมศึกษา</div>
                     <div class="timeline-content">
-                        <h3>ระดับประถมศึกษา</h3>
-                        <p>สำเร็จการศึกษาจากโรงเรียนในจังหวัดเชียงใหม่ พื้นฐานการเรียนรู้และเริ่มต้นความสนใจในด้านวิชาการ</p>
+                        <span class="t-level">ประถมศึกษา</span>
+                        <h4>โรงเรียนประถมศึกษา</h4>
+                        <p>สำเร็จการศึกษาในช่วงระดับชั้นประถมศึกษา พื้นฐานการเรียนรู้เริ่มต้นขึ้นที่นี่</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">มัธยมศึกษาตอนต้น</div>
                     <div class="timeline-content">
-                        <h3>ระดับมัธยมศึกษาตอนต้น</h3>
-                        <p>กำลังศึกษาอยู่ที่ <strong>โรงเรียนจอมทอง</strong> จังหวัดเชียงใหม่ เน้นการพัฒนาทักษะด้านเทคโนโลยีและคอมพิวเตอร์</p>
+                        <span class="t-level">มัธยมศึกษาตอนต้น</span>
+                        <h4>โรงเรียนจอมทอง</h4>
+                        <p>กำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่ 3 สั่งสมประสบการณ์และทักษะด้านต่างๆ</p>
                     </div>
                 </div>
-                <div class="timeline-item">
+                <div class="timeline-item active">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">ปัจจุบัน</div>
                     <div class="timeline-content">
-                        <h3>มัธยมศึกษาปีที่ 3/2</h3>
-                        <p>ศึกษาต่อในระดับชั้น ม.3 ห้อง 3/2 เตรียมตัวศึกษาต่อในระดับที่สูงขึ้นไป</p>
+                        <span class="t-level">ปัจจุบัน</span>
+                        <h4>ม.3/2 แผนการเรียนทั่วไป</h4>
+                        <p>มุ่งเน้นพัฒนาทักษะวิชาการและคอมพิวเตอร์เพื่อต่อยอดสู่อนาคต</p>
                     </div>
                 </div>
             </div>
 
-            <div class="highlight-section">
-                <h3>ข้อมูลการศึกษาปัจจุบัน</h3>
-                <table class="edu-table">
-                    <tr>
-                        <th>สถานศึกษา</th>
-                        <td>โรงเรียนจอมทอง</td>
-                    </tr>
-                    <tr>
-                        <th>ระดับชั้น</th>
-                        <td>มัธยมศึกษาปีที่ 3</td>
-                    </tr>
-                    <tr>
-                        <th>ห้องเรียน</th>
-                        <td>ห้อง 3/2</td>
-                    </tr>
-                    <tr>
-                        <th>วิชาที่ชอบ</th>
-                        <td>คณิตศาสตร์ 📐</td>
-                    </tr>
-                </table>
+            <div class="edu-highlight-container">
+                <div class="highlight-card">
+                    <h3>🎓 ข้อมูลการศึกษาปัจจุบัน</h3>
+                    <ul class="highlight-list">
+                        <li><strong>โรงเรียน:</strong> จอมทอง</li>
+                        <li><strong>ระดับชั้น:</strong> ม.3</li>
+                        <li><strong>ห้องเรียน:</strong> 3/2</li>
+                        <li><strong>วิชาที่ชอบ:</strong> คณิตศาสตร์ (Mathematics)</li>
+                    </ul>
+                </div>
+
+                <div class="edu-table-wrapper">
+                    <h3>ตารางสรุปประวัติการศึกษา</h3>
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>ระดับการศึกษา</th>
+                                <th>สถานศึกษา</th>
+                                <th>สถานะ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ประถมศึกษา</td>
+                                <td>โรงเรียนเดิม</td>
+                                <td>จบการศึกษา</td>
+                            </tr>
+                            <tr>
+                                <td>มัธยมศึกษาตอนต้น</td>
+                                <td>โรงเรียนจอมทอง</td>
+                                <td>กำลังศึกษาอยู่ (ม.3/2)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
         <div class="footer-content">
-            <p>เว็บไซต์แนะนำตัว โครงงานวิชาคอมพิวเตอร์</p>
-            <p>&copy; 2026 ด.ช.กิตติกร สุธนะ ชั้น ม.3 โรงเรียนจอมทอง</p>
+            <p>เว็บไซต์แนะนำตัว | ด.ช.กิตติกร สุธนะ (โชกุน) ชั้น ม.3/2 โรงเรียนจอมทอง จ.เชียงใหม่</p>
+            <p class="copyright">&copy; 2026 All Rights Reserved.</p>
         </div>
     </footer>
 </body>
