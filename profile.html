@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ประวัติส่วนตัว - พอร์ตโฟลิโอของฉัน</title>
+    <title>ประวัติส่วนตัว - ด.ช.กิตติกร สุธนะ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="space-bg"></div>
+    
     <header>
         <nav class="navbar">
-            <div class="logo">Kittikorn's Portfolio</div>
+            <div class="logo"><span>SHOGUN</span>.DEV</div>
             <ul class="nav-links">
                 <li><a href="index.html">หน้าแรก</a></li>
                 <li><a href="profile.html" class="active">ประวัติส่วนตัว</a></li>
@@ -22,32 +24,35 @@
 
     <main class="container">
         <section class="page-header">
-            <h2>ประวัติส่วนตัว (Profile)</h2>
+            <h2>ประวัติส่วนตัว</h2>
             <p>ทำความรู้จักกับตัวตนและข้อมูลพื้นฐานของผมให้มากขึ้น</p>
         </section>
 
         <div class="profile-grid">
-            <div class="profile-card-img">
-                <img src="data:image/jpeg;base64,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" alt="รูปโปรไฟล์ของ ด.ช.กิตติกร สุธนะ">
-                <div class="quick-info">
-                    <p><strong>ชื่อเล่น:</strong> โชกุน</p>
-                    <p><strong>อายุ:</strong> 14 ปี</p>
-                    <p><strong>จังหวัด:</strong> เชียงใหม่</p>
+            <div class="profile-card-left">
+                <div class="img-frame">
+                    <img src="https://placehold.co/350x450/111/FFD700.png?text=Profile+Image" alt="รูปโปรไฟล์เต็มตัวของฉัน">
                 </div>
+                <div class="quick-tag">ราชาในหมู่ราชา</div>
             </div>
-            <div class="profile-details">
-                <div class="info-card">
+
+            <div class="profile-card-right">
+                <div class="info-box">
                     <h3>ข้อมูลส่วนตัว</h3>
                     <ul>
                         <li><strong>ชื่อ-นามสกุล:</strong> ด.ช.กิตติกร สุธนะ</li>
+                        <li><strong>ชื่อเล่น:</strong> โชกุน</li>
+                        <li><strong>อายุ:</strong> 14 ปี</li>
                         <li><strong>วันเกิด:</strong> 5 กันยายน พ.ศ. 2554</li>
+                        <li><strong>จังหวัด:</strong> เชียงใหม่</li>
                         <li><strong>โรงเรียน:</strong> จอมทอง</li>
                         <li><strong>ระดับชั้น:</strong> ม.3/2</li>
                     </ul>
                 </div>
-                <div class="info-card">
+
+                <div class="info-box about-me">
                     <h3>เกี่ยวกับฉัน</h3>
-                    <p>สวัสดีครับผมชื่อ ด.ช.กิตติกร สุธนะ หรือโชกุน ศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 3/2 โรงเรียนจอมทอง จังหวัดเชียงใหม่ คติประจำใจหรือแนวคิดที่ชอบคือ <strong>"ผู้ที่เป็นราชาในหมู่ราชา"</strong> มีความสนใจด้านคอมพิวเตอร์และเทคโนโลยี มุ่งมั่นที่จะเรียนรู้สิ่งใหม่ ๆ เพื่อพัฒนาตนเองอยู่เสมอ</p>
+                    <p>สวัสดีครับ ผมชื่อโชกุน เป็นคนชอบเรียนรู้เรื่องเทคโนโลยีและการใช้ชีวิต มีเป้าหมายที่ยิ่งใหญ่และความมุ่งมั่นในการพัฒนาตนเองอยู่เสมอ คติประจำใจคือการก้าวไปข้างหน้าอย่างมั่นคงและเป็นผู้นำในสิ่งที่รัก</p>
                 </div>
             </div>
         </div>
@@ -55,8 +60,8 @@
 
     <footer>
         <div class="footer-content">
-            <p>เว็บไซต์แนะนำตัว โครงงานวิชาคอมพิวเตอร์</p>
-            <p>&copy; 2026 ด.ช.กิตติกร สุธนะ ชั้น ม.3 โรงเรียนจอมทอง</p>
+            <p>เว็บไซต์แนะนำตัว | ด.ช.กิตติกร สุธนะ (โชกุน) ชั้น ม.3/2 โรงเรียนจอมทอง จ.เชียงใหม่</p>
+            <p class="copyright">&copy; 2026 All Rights Reserved.</p>
         </div>
     </footer>
 </body>
