@@ -3,112 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>งานอดิเรก | โชกุน กิตติกร</title>
+    <title>งานอดิเรกและความสนใจ - พอร์ตโฟลิโอของฉัน</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Navigation Bar -->
-    <header class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">SHOGUN<span class="logo-accent">.ECLIPSE</span></a>
-            <nav class="nav-menu">
-                <a href="index.html" class="nav-link">หน้าแรก</a>
-                <a href="profile.html" class="nav-link">ประวัติส่วนตัว</a>
-                <a href="education.html" class="nav-link">การศึกษา</a>
-                <a href="hobby.html" class="nav-link active">งานอดิเรก</a>
-                <a href="contact.html" class="nav-link">ติดต่อ</a>
-            </nav>
-        </div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kittikorn's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html">การศึกษา</a></li>
+                <li><a href="hobby.html" class="active">งานอดิเรก</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="container page-content">
-        <div class="page-header">
-            <span class="badge">HOBBIES & INTERESTS</span>
-            <h1 class="page-title">งานอดิเรก & <span class="text-highlight">ความสนใจ</span></h1>
-            <p class="page-subtitle">สิ่งที่ชื่นชอบ ผ่อนคลาย และสร้างแรงบันดาลใจในเวลาว่าง</p>
-        </div>
-
-        <!-- Featured Hobby Banner -->
-        <section class="card featured-hobby-banner">
-            <div class="banner-content">
-                <span class="badge badge-accent">งานอดิเรกหลัก (NUMBER 1)</span>
-                <h2>😴 การนอน (Ultimate Relaxation)</h2>
-                <p>กิจกรรมเพิ่มพลังชีวิตที่ดีที่สุด การนอนหลับพักผ่อนอย่างเพียงพอช่วยให้สมองแจ่มใส พร้อมรับการเรียนรู้และการคิดวิเคราะห์สิ่งใหม่ๆ ในวันถัดไปอย่างมีประสิทธิภาพ</p>
-            </div>
+    <main class="container">
+        <section class="page-header">
+            <h2>งานอดิเรกและความสนใจ (Hobbies & Interests)</h2>
+            <p>กิจกรรมยามว่าง สิ่งที่ชอบ และเป้าหมายความสนใจของผม</p>
         </section>
 
-        <!-- Hobbies Feature Grid -->
-        <section class="grid grid-3 hobby-grid">
-            <!-- Card 1 -->
-            <div class="card hobby-card">
+        <div class="hobby-grid">
+            <div class="hobby-card">
                 <div class="hobby-icon">🎮</div>
-                <span class="hobby-category">เกม</span>
-                <h3>ROV</h3>
-                <p>ฝึกการคิดเชิงกลยุทธ์ การวางแผนทีม และความไวของปฏิกิริยาในการแก้ไขสถานการณ์เฉพาะหน้า</p>
+                <h3>เกม</h3>
+                <p><strong>ROV</strong> - เกมโปรดที่ช่วยฝึกกระบวนการคิดและวางแผนกลยุทธ์รวมถึงการทำงานเป็นทีม</p>
             </div>
-
-            <!-- Card 2 -->
-            <div class="card hobby-card">
+            <div class="hobby-card">
                 <div class="hobby-icon">⚽</div>
-                <span class="hobby-category">กีฬา</span>
-                <h3>ฟุตบอล</h3>
-                <p>ออกกำลังกายเพื่อสุขภาพที่แข็งแรง ฝึกการทำงานเป็นทีม และสร้างความสนิทสนมกับเพื่อนๆ</p>
+                <h3>กีฬา</h3>
+                <p><strong>ฟุตบอล</strong> - กีฬาโปรดที่ช่วยเสริมสร้างสุขภาพร่างกายให้แข็งแรงและความสามัคคี</p>
             </div>
-
-            <!-- Card 3 -->
-            <div class="card hobby-card">
+            <div class="hobby-card">
                 <div class="hobby-icon">🎵</div>
-                <span class="hobby-category">เพลง</span>
-                <h3>ของจริง</h3>
-                <p>ฟังเพลงเพิ่มสมาธิ สร้างบรรยากาศผ่อนคลายขณะทำการบ้านหรือศึกษาความรู้ใหม่ๆ</p>
+                <h3>เพลง</h3>
+                <p><strong>ของจริง</strong> - แนวเพลงหรือบทเพลงที่ชื่นชอบในการฟังยามว่างเพื่อความผ่อนคลาย</p>
             </div>
-
-            <!-- Card 4 -->
-            <div class="card hobby-card">
+            <div class="hobby-card">
                 <div class="hobby-icon">🎬</div>
-                <span class="hobby-category">ภาพยนตร์</span>
-                <h3>Jurassic Park 3</h3>
-                <p>ตื่นตาตื่นใจไปกับโลกล้านปี ไดโนเสาร์ และจินตนาการทางวิทยาศาสตร์ภาพยนตร์ในดวงใจ</p>
+                <h3>ภาพยนตร์</h3>
+                <p><strong>Jurassic Park 3</strong> - ภาพยนตร์แนวผจญภัยไดโนเสาร์สุดตื่นเต้นที่ดูได้ไม่มีเบื่อ</p>
             </div>
-
-            <!-- Card 5 -->
-            <div class="card hobby-card">
+            <div class="hobby-card">
                 <div class="hobby-icon">💻</div>
-                <span class="hobby-category">เทคโนโลยี</span>
-                <h3>คอมพิวเตอร์</h3>
-                <p>ศึกษาการทำงานของคอมพิวเตอร์ การเขียนเว็บไซต์ และอัปเดตเทคโนโลยีใหม่ๆ อยู่เสมอ</p>
+                <h3>เทคโนโลยี</h3>
+                <p><strong>คอมพิวเตอร์</strong> - ความสนใจในการใช้งานฮาร์ดแวร์ ซอฟต์แวร์ และการเขียนเว็บไซต์</p>
             </div>
-
-            <!-- Card 6 -->
-            <div class="card hobby-card accent-border">
+            <div class="hobby-card">
                 <div class="hobby-icon">📷</div>
-                <span class="hobby-category">ความสนใจ</span>
-                <h3>ครองโลก</h3>
-                <p>ความมุ่งมั่นในการพัฒนาทักษะตนเองในทุกด้าน เพื่อความเป็นเลิศและก้าวสู่อนาคตที่ยิ่งใหญ่</p>
+                <h3>ความสนใจ</h3>
+                <p><strong>ครองโลก</strong> - เป้าหมายและความสนใจสุดยิ่งใหญ่ในจินตนาการเพื่อความสนุกสนาน</p>
             </div>
-        </section>
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-info">
-                <h3>SHOGUN PORTFOLIO</h3>
-                <p>ด.ช.กิตติกร สุธนะ (โชกุน) | ม.3/2 โรงเรียนจอมทอง</p>
-            </div>
-            <div class="footer-links">
-                <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
-                <a href="education.html">การศึกษา</a>
-                <a href="hobby.html">งานอดิเรก</a>
-                <a href="contact.html">ติดต่อ</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Kittikorn Suthana. All Rights Reserved. Computer Science Project.</p>
+    <footer>
+        <div class="footer-content">
+            <p>เว็บไซต์แนะนำตัว โครงงานวิชาคอมพิวเตอร์</p>
+            <p>&copy; 2026 ด.ช.กิตติกร สุธนะ ชั้น ม.3 โรงเรียนจอมทอง</p>
         </div>
     </footer>
-
 </body>
 </html>
